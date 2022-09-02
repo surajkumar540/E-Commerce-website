@@ -1,8 +1,8 @@
 [
     {
-        "_id": {
-            "$oid": "608c27f3e165f6137f02b549"
-        },
+        "id": 
+           "608c27f3e165f6137f02b549"
+       ,
         "name": "Four cheese",
         "price": 799,
         "size": "Medium",
@@ -15,9 +15,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c280ce165f6137f02b54a"
-        },
+        "id":  "608c280ce165f6137f02b54a"
+       ,
         "name": "Chicken mushroom",
         "price": 699,
         "size": "Small",
@@ -30,9 +29,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c2878e165f6137f02b54b"
-        },
+        "id": "608c2878e165f6137f02b54b"
+       ,
         "name": "Margarita",
         "price": 699,
         "size": "Medium",
@@ -45,9 +43,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c288ae165f6137f02b54c"
-        },
+        "id": "608c288ae165f6137f02b54c"
+       ,
         "name": "Carbonara",
         "price": 999,
         "size": "Large",
@@ -60,9 +57,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c2899e165f6137f02b54d"
-        },
+        "id": "608c2899e165f6137f02b54d"
+       ,
         "name": "Mix BBQ",
         "price": 1299,
         "size": "Large",
@@ -75,9 +71,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c28b3e165f6137f02b54e"
-        },
+        "id": "608c28b3e165f6137f02b54e"
+       ,
         "name": "Mushroom",
         "price": 499,
         "size": "Small",
@@ -90,9 +85,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c28d0e165f6137f02b54f"
-        },
+       "id": "608c28d0e165f6137f02b54f"
+       ,
         "name": "Double peperoni",
         "price": 1399,
         "size": "Large",
@@ -105,9 +99,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c28e8e165f6137f02b550"
-        },
+       "id": "608c28e8e165f6137f02b550"
+       ,
         "name": "Chicken premier",
         "price": 899,
         "size": "Medium",
@@ -120,9 +113,8 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c2904e165f6137f02b551"
-        },
+        "id": "608c2904e165f6137f02b551"
+       ,
         "name": "Caramel pineapple",
         "price": 799,
         "size": "Small",
@@ -135,9 +127,7 @@
         }
     },
     {
-        "_id": {
-            "$oid": "608c2960e165f6137f02b552"
-        },
+       "id": "608c2960e165f6137f02b552",
         "name": "Havana special",
         "price": 599,
         "size": "Small",
