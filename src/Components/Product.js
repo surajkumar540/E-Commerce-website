@@ -13,7 +13,7 @@ const Product = (props) => {
 
 
     const addToCart = (event, product) =>{
-        console.log(product.id);
+        // console.log(product.id);
         event.preventDefault();
 
         let _cart = {...cart}; //{items:{}}
