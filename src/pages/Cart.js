@@ -44,7 +44,7 @@ const Cart = () => {
     
 
     setProducts(mainArr);
-  
+
   },[cart]);
 
   // console.log(products);
@@ -67,13 +67,9 @@ const Cart = () => {
     // let prodQ = productQnt;
     // let prodPr = productPrice;
 
-
     const proId = products.filter((item) => item.id !== prodId);
-    
     setProducts(proId);
-    
-    // console.log(prodId, prodQ, prodPr);
-    // return proId;
+
   }
   // console.log(products);
 

@@ -34,7 +34,7 @@ const SingleProduct = () => {
             <div className='container mx-auto mt-12'>
                 <button className='mb-12 font-bold' onClick={handleClick}>Back</button>
                 <div className='flex'>
-                    <img src='/images/peproni.png' alt='pizza' />
+                    <img src={product.image} alt='pizza' />
                     <div className='ml-16'>
                         <h1 className='text-xl font-bold'>{product.name} </h1>
                         <div className='text-md'>{product.size}</div>

@@ -6,7 +6,7 @@
         "name": "Four cheese",
         "price": 799,
         "size": "Medium",
-        "image": "uploads/1619798003389-788648576.png",
+        "image": "https://www.dominos.co.in/files/items/Double_Cheese_Margherita.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:53:23.393Z"
         },
@@ -17,10 +17,10 @@
     {
         "id":  "608c280ce165f6137f02b54a"
        ,
-        "name": "Chicken mushroom",
+        "name": "Chicken Dominator",
         "price": 699,
         "size": "Small",
-        "image": "uploads/1619798028739-356043472.png",
+        "image": "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(11).png",
         "createdAt": {
             "$date": "2021-04-30T15:53:48.741Z"
         },
@@ -34,7 +34,7 @@
         "name": "Margarita",
         "price": 699,
         "size": "Medium",
-        "image": "uploads/1619798136362-377165689.png",
+        "image": "https://www.dominos.co.in/files/items/Farmhouse.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:55:36.364Z"
         },
@@ -45,10 +45,10 @@
     {
         "id": "608c288ae165f6137f02b54c"
        ,
-        "name": "Carbonara",
+        "name": "Peppy Paneer",
         "price": 999,
         "size": "Large",
-        "image": "uploads/1619798154274-595975749.png",
+        "image": "https://www.dominos.co.in/files/items/Peppy_Paneer.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:55:54.276Z"
         },
@@ -59,10 +59,10 @@
     {
         "id": "608c2899e165f6137f02b54d"
        ,
-        "name": "Mix BBQ",
+        "name": "Indi Tandoori Paneer",
         "price": 1299,
         "size": "Large",
-        "image": "uploads/1619798169571-671551234.png",
+        "image": "https://www.dominos.co.in/files/items/IndianTandooriPaneer.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:56:09.573Z"
         },
@@ -73,10 +73,10 @@
     {
         "id": "608c28b3e165f6137f02b54e"
        ,
-        "name": "Mushroom",
+        "name": "Cheese n corn",
         "price": 499,
         "size": "Small",
-        "image": "uploads/1619798195141-748496629.png",
+        "image": "https://www.dominos.co.in/files/items/Corn_&_Cheese.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:56:35.142Z"
         },
@@ -87,10 +87,10 @@
     {
        "id": "608c28d0e165f6137f02b54f"
        ,
-        "name": "Double peperoni",
+        "name": "Double Chees Margherita",
         "price": 1399,
         "size": "Large",
-        "image": "uploads/1619798224663-303286145.png",
+        "image": "https://www.dominos.co.in/files/items/Veg_Extravaganz.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:57:04.665Z"
         },
@@ -101,10 +101,10 @@
     {
        "id": "608c28e8e165f6137f02b550"
        ,
-        "name": "Chicken premier",
+        "name": "Chicken Pepproni",
         "price": 899,
         "size": "Medium",
-        "image": "uploads/1619798248317-105704752.png",
+        "image": "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(20).png",
         "createdAt": {
             "$date": "2021-04-30T15:57:28.319Z"
         },
@@ -115,10 +115,10 @@
     {
         "id": "608c2904e165f6137f02b551"
        ,
-        "name": "Caramel pineapple",
+        "name": "Paneer & Onion",
         "price": 799,
         "size": "Small",
-        "image": "uploads/1619798276630-463888204.png",
+        "image": "https://www.dominos.co.in/files/items/Paneer_Special.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:57:56.632Z"
         },
@@ -128,10 +128,10 @@
     },
     {
        "id": "608c2960e165f6137f02b552",
-        "name": "Havana special",
+        "name": "PANEER MAKHANI",
         "price": 599,
         "size": "Small",
-        "image": "uploads/1619798368145-612682611.png",
+        "image": "https://www.dominos.co.in/files/items/Paneer_Makhni.jpg",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
         },
