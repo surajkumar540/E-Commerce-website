@@ -9,7 +9,7 @@ import { CartContext } from './pages/CartContext'
 
 const App = () => {
 
-    const [ cart, setCart ] = useState({});
+    const [ cart, setCart ] = useState([]);
     //fetch data from localstorage
 
     useEffect(() => {
@@ -21,7 +21,7 @@ const App = () => {
 
     useEffect(() =>{
        window.localStorage.setItem('cart', JSON.stringify(cart));
-       console.log(localStorage.getItem('cart'));
+    //    console.log(localStorage.getItem('cart'));
     }, [cart])
 
     return (
