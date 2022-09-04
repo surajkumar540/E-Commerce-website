@@ -5,7 +5,7 @@ import { CartContext } from '../pages/CartContext';
 
 const Cart = () => {
 
-  const { cart } = useContext(CartContext);
+  const { cart, setCart } = useContext(CartContext);
   // console.log(cart);
   let total =  0;
  
@@ -62,16 +62,19 @@ const Cart = () => {
 
 
   const handleDelete =(productId) =>{
-
-    let prodId = productId;
-    // let prodQ = productQnt;
-    // let prodPr = productPrice;
-
-    const proId = products.filter((item) => item.id !== prodId);
-    setProducts(proId);
-
+    
+    const carts = {...cart};
+    const qty = carts.items[productId];
+    delete carts.items[productId]
+    carts.totalItems -= qty;
+    setCart(carts)
   }
-  // console.log(products);
+
+ const handleOrderNow = () =>{
+    window.alert('Order placed succusfully !');
+    setProducts([]);
+    setCart({});
+ }
 
   return (
   <>
@@ -89,7 +92,7 @@ const Cart = () => {
         <li className='mb-12' key={item.id}>
           <div className='flex items-center justify-between '>
             <div className=' flex items-center '>
-              <img className='h-16' src='./images/peproni.png' />
+              <img className='h-16' src={item.image} />
               <span className='font-bold ml-4 w-48'>{item.name}</span>
             </div>
             <div>
@@ -108,7 +111,7 @@ const Cart = () => {
               <b>Grand Total:  ₹ {total}</b>
         </div>
       <div className='text-right mt-6'>
-          <button className='bg-yellow-500 px-4 py-2 rounded-full leading-none'>order now</button>
+              <button onClick={() => { handleOrderNow() }} className='bg-yellow-500 px-4 py-2 rounded-full leading-none'>order now</button>
         </div>
     </div>
         )} 

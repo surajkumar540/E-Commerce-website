@@ -5,6 +5,7 @@ import Navigation from './Components/Navigation'
 import ProductPages from './pages/ProductPages'
 import Cart from './pages/Cart'
 import SingleProduct from './pages/SingleProduct'
+// import Home from './pages/Home'
 import { CartContext } from './pages/CartContext'
 
 const App = () => {
@@ -35,6 +36,7 @@ const App = () => {
                         <Route path="/products" exact element={<ProductPages />} />
                         <Route path="/products/:_id" element={<SingleProduct />} />
                         <Route path="/cart" element={<Cart />} />
+                        <Route path="/products" exact element={<Home />} />
                     </Routes>
                 </CartContext.Provider>
             </Router>
