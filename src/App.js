@@ -5,19 +5,37 @@ import Navigation from './Components/Navigation'
 import ProductPages from './pages/ProductPages'
 import Cart from './pages/Cart'
 import SingleProduct from './pages/SingleProduct'
-// import Home from './pages/Home'
 import { CartContext } from './pages/CartContext'
+import Records from './db/Product.json';
+
+
+
 
 const App = () => {
 
     const [ cart, setCart ] = useState([]);
+    const [data, setData] = useState(Records);
+
+    const [allProducts, setAllProducts] = useState(Records);
+
+    
+    
+    const searchProduct = (searchItem) =>{
+        // console.log('hi', searchItem);
+        
+        const filtArr = allProducts.filter((item) =>{
+            return item.name.includes(searchItem); 
+        })
+        setData(filtArr);
+        console.log(filtArr);
+    }
+
     //fetch data from localstorage
 
     useEffect(() => {
        
         const cart = window.localStorage.getItem('cart');
          setCart(JSON.parse(cart))
-        // console.log(JSON.parse(cart));
     },[])
 
     useEffect(() =>{
@@ -25,10 +43,11 @@ const App = () => {
     //    console.log(localStorage.getItem('cart'));
     }, [cart])
 
+
     return (
         <>
             <Router>
-                <CartContext.Provider value={{ cart, setCart }}>
+                <CartContext.Provider value={{ cart, setCart, searchProduct, data }}>
                     <Navigation />
                     <Routes>
                         <Route path="/" element={<Home />} exact />

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useContext } from 'react'
 import Records from '../db/Product.json';
 import { CartContext } from '../pages/CartContext';
-
+import { Link } from 'react-router-dom';
 const Cart = () => {
 
   const { cart, setCart } = useContext(CartContext);
@@ -99,7 +99,7 @@ const Cart = () => {
                 <b className='px-4'>Qty : {item.qty}</b>
             </div>
                   <span><b> ₹ {getQty(item.price, item.qty)} </b></span>
-            <button onClick={ () => { handleDelete(item.id) }} className='bg-red-500 px-4 py-2 rounded-full leading-none text-white'>Delete</button>
+                  <button onClick={() => { handleDelete(item.id) }} className='bg-blue-500 px-4 py-2 rounded-full leading-none text-white hover:bg-red-500'>Delete</button>
           </div>
         </li>
             )
@@ -111,7 +111,7 @@ const Cart = () => {
               <b>Grand Total:  ₹ {total}</b>
         </div>
       <div className='text-right mt-6'>
-              <button onClick={() => { handleOrderNow() }} className='bg-yellow-500 px-4 py-2 rounded-full leading-none'>order now</button>
+              <button onClick={() => { handleOrderNow() }} className='bg-yellow-500 px-4 py-2 rounded-full leading-none text-white hover:bg-green-500'>shop now</button>
         </div>
     </div>
         )} 
