@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='bg-red-300'>
-      <div className='hero py-16 bg-red-600 rounded' > {/* div start */} 
+      <div className='hero py-24 bg-red-600 rounded' > {/* div start */} 
         <div className='container mx-auto  flex justify-between items-center'>
           <div className='w-1/2'>
             <h6 className='text-lg m-2 text-white'><em><b>Keep your music close </b></em></h6>
@@ -15,7 +15,8 @@ const Home = () => {
           </div> {/* first div*/}
 
           <div className=' w-1/2 flex items-center animate-bounce h-12 '>
-            <img className='h-80 ' src='/images/headphones.png' alt='headphone img'></img>  
+            <img className='h-80 ' src='/images/headphones.png' alt='headphone img'></img> 
+            <img className='h-80 ' src='/images/watch_1.png' alt='headphone img'></img>  
           </div> {/* headphone div */}
         </div>
       </div>{/* div end */}

@@ -55,16 +55,17 @@ const Product = (props) => {
     return (
         
         <Link to={`/products/${product.id}`}>
-            <div className='transform transition-all hover:scale-110 rounded-2xl'>
-                <img className='bg-gray-300 rounded-2xl p-1' src={product.image} alt='logo'/>
-                <div className='text-center bg-yellow-500 -p-2 rounded'>
-                <h2 className='text-lg font-bold py-2 text-white'>{product.name}</h2> 
+            <div className='rounded-xl transform transition-all hover:scale-105 bg-gray-400'>
+                <img className=' p-1 rounded-t-2xl' src={product.image} alt='logo'/>
+                <div className='text-center bg-yellow-600'>
+                <h2 className='text-lg font-bold text-white'>{product.name}</h2> 
+                
+                </div>
+                <div className=' h-20 text-center flex flex-col items-center'>
+                    <span className='text-black pt-1 w-full '><b>Price ₹{product.price}</b></span> 
+                    <button disabled={isAdding} onClick={(e) => { addToCart(e, product) }} className={`${isAdding ? 'bg-green-600' : 'bg-red-500'} ' px-6  py-1  flex justify-center m-2  rounded-xl w-4/5 font-bold   hover:-translate-y-1 hover:scale-110 duration-300 text-white`}>Add{isAdding ? 'ed' : ""}</button>
                 </div>
             </div>
-                <div className='flex justify-between items-center mt-4'>
-                <span>₹{product.price}</span> 
-                <button disabled={isAdding} onClick={(e) => { addToCart(e, product) }} className={`${isAdding ? 'bg-green-500' : 'bg-yellow-500'} ' px-8 py-1 rounded font-bold   hover:-translate-y-1 hover:scale-110 duration-300 text-white`}>Add{isAdding ? 'ed' : ""}</button>
-                </div>
         </Link>
     )
 }

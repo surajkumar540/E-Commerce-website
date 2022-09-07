@@ -19,7 +19,7 @@
        ,
         "name": "BassHeads 242",
         "price": 599,
-        "about": "Ear Wired Earphones with Mic",
+        "about": "Get ready to redefine fitness fashion and utility with the wired headphone boAt Bassheads 242, it’s time to get your sport on. It carries ear hooks that are crafted from silicon to maximize comfort and a secure fit that allows you to maximize your workouts. Coated with IPX 4 sweat and water protection, the Bassheads 242 emphasizes on all-around ability with 10mm drivers that reproduce a quality sound. Move around freely with the superior coated cable that reaches comfortably from your pocket till your ears. Connect to a number of devices with ease using the 3.5mm straight jack, because there’s no stress, only sweetness when you’re riding the waves on this boAt. You can tune in and out with the pause/play button that can also take calls (With In-line Mic.) and control volume in-between exercise reputations.",
         "image": "https://raw.githubusercontent.com/adrianhajdin/ecommerce_sanity_stripe/main/public/assets/earphones_a_1.webp",
         "createdAt": {
             "$date": "2021-04-30T15:53:48.741Z"
@@ -47,7 +47,7 @@
        ,
         "name": "Airdopes 201",
         "price": 1999,
-        "about": "10mm Drivers, 470mAh charging case, Up to 3 hours of audio bliss, Voice Assistant with Google and Siri",
+        "about": "Wireless earbuds to amplify the music you love and forget what’s happening around you. Plug into Nirvana with these in-ear wireless earbuds, powered with Bluetooth v5.0 for seamless connectivity. Immersive sound to make you experience the unreal. Lightweight to give you comfort for the entire day. Let your style do the talking, with these tws bluetooth earphones. Keep the earbuds in the 470mAh charging case as you carry your style along with your music that allows for a total of almost 15 hours of play-time.",
         "image": "https://raw.githubusercontent.com/adrianhajdin/ecommerce_sanity_stripe/main/public/assets/earphones_b_2.webp",
         "createdAt": {
             "$date": "2021-04-30T15:55:54.276Z"
@@ -61,7 +61,7 @@
        ,
         "name": "Airdopes 281 Pro",
         "price": 1299,
-        "about": "ENx™ Technology with 4 Mics, ASAP Charge, 6mm Drivers, 32 Hours Nonstop Audio Bliss",
+        "about": "Life seems better if the right music is heard the right way. Plug into a blissful listening experience with boAt Airdopes 281 Pro - a truly wireless earbuds powered by boAt Signature Sound. Equipped with ENx™ Technology and four mics, it makes your everyday calling experience hit the roof. Win matches while playing multiplayer games with your friends through its optimum noise cancellation and crystal-clear audio input. So, where are you? Because your perfect audio match is right here - boAt Airdopes 281.",
         "image": "https://raw.githubusercontent.com/adrianhajdin/ecommerce_sanity_stripe/main/public/assets/earphones_b_3.webp",
         "createdAt": {
             "$date": "2021-04-30T15:56:09.573Z"
@@ -75,7 +75,7 @@
        ,
         "name": "Stone 500",
         "price": 1999,
-        "about": "RGB lights 10 W Bluetooth Speaker with Wireless music streaming via Bluetooth",
+        "about": "Become the life of every party with Stone 500. Experience 10W RMS stereo sound and groove with your gang on your favourite tunes. Double the thump with its TWS functionality that lets you connect & play 2 Stone 500 together. The dynamic RGB lights will add to the vibe of your party as you get transported to a club setting. Its universal connectivity with multiple connectivity modes —Bluetooth v5.0, AUX, USB and FM mode. With a Type-C charging interface & instant voice assistant, this wireless speaker will make your life easier as you enjoy the sound of your choice.  With Stone 500, it is time to #BeTheLimelight.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_8549ad38-acec-45d6-bba4-8b202a9bfdc1_600x.png?v=1646976976",
         "createdAt": {
             "$date": "2021-04-30T15:56:35.142Z"
@@ -89,7 +89,7 @@
        ,
         "name": "Rockerz 333",
         "price": 1599,
-        "about": " Neo Bluetooth Wireless In Ear Earphones With Mic With Enx Tech, Magnetic Smartbuds Upto 25 Hours Playback Asap Charge Beast Mode With Dual Pairing 12Mm Drivers",
+        "about": "When your taste in music is so unique, why should your audio wear be any different? Speak your unique style with Rockerz 333 - a bold and powerful wireless earphones for the part of you that wants more. More of sound, more of style, and more of power. Immerse into your jam with boAt Signature Sound and 30 HRS of non stop playback. Let nothing limit your hustle with Dual Pairing that lets you connect two devices at once. Don’t hold back, choose your vibe with Rockerz 333.",
         "image": "https://raw.githubusercontent.com/adrianhajdin/ecommerce_sanity_stripe/main/public/assets/earphones_c_3.webp",
         "createdAt": {
             "$date": "2021-04-30T15:57:04.665Z"
@@ -103,7 +103,7 @@
        ,
         "name": "Immortal 1000D",
         "price": 2099,
-        "about": "Dual Channel Gaming Wired Over Ear Headphones with Mic with 7.1 Channel Surround Audio, Dolby Atmos, 50Mm Drivers and RGB Breathing LEDs",
+        "about": "The game begins here. With Immortal 1000D gaming headphones, don’t just play the game - feel it, live it, and own it. Level up your audio game with 7.1 Channel Surround Sound and Dolby Atmos that unleashes the winning beast inside you. Equipped with 50mm drivers, get a powerful 360° gaming experience like no other. Now, you can conquer every game with a sound that provides position accuracy and abstracts. Your everyday gaming is now double the fun with its RGB LED lights. Its lightweight and ergonomic build ensure you have a comfortable bender with your friends. Don’t look further, level up with Immortal 1000D headphones.",
         "image": "https://raw.githubusercontent.com/adrianhajdin/ecommerce_sanity_stripe/main/public/assets/headphones_a_1.webp",
         "createdAt": {
             "$date": "2021-04-30T15:57:28.319Z"
@@ -117,7 +117,7 @@
        ,
         "name": "Pro Smartwatch",
         "price": 3299,
-        "about": "Track your Fitness, Control Your Music & Camera, Track your Heartbeat with Temperature Monitor",
+        "about": "Shout out to all the cricket lovers. Cheer for your home team as you stay updated about the scores right from your wrist with Watch Wave Pro. Get a complete capacitive experience with a 1.69 inch colour HD Display with 500 Nits brightness as you hustle through the week with one full charge. Its Fast Charging Chip makes sure that you don’t waste another minute in your hustle by giving 1 full charge in just 30 minutes. #WearYourStyle and never go out of vogue with 100+ custom Indian watch faces to choose from. Up your fitness game with custom fitness plans with the boAt Crest App. Sweat it out to your custom run plan without worry even in pouring rains with IP67 rating on Watch Wave Pro. Get ahead and add style to your passion for the game.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main1_0ae2597d-dee4-42fd-9a18-eb4ae0b3bc43_600x.png?v=1647765304",
         "createdAt": {
             "$date": "2021-04-30T15:57:56.632Z"
@@ -130,7 +130,7 @@
        "id": "608c2960e165f6137f02b552",
         "name": "Party Pal 50",
         "price": 3999,
-        "about": "Boat Partypal 50 20W Bluetooth, Wireless, Auxiliary, USB, Fm Speaker",
+        "about": "Immerse in the 20W RMS Stereo Sound with the powerful Party Pal 50 bluetooth speaker. Set the vibes of the party just right with the RGB LEDs. Keep worries at bay and party poolside with IPX5 splash resistant! Get, set, grooving as Party Pal 50 comes with a powerful playback of 4.5 Hrs. Access Instant Voice Assistant and enjoy the multiple connectivity modes- USB, AUX, Bluetooth v5.1, and FM. Coming with Type-C interface, Party Pal 50 is all you need to set the mood just about right. So, where y’all partying at?",
         "image": "https://raw.githubusercontent.com/adrianhajdin/ecommerce_sanity_stripe/main/public/assets/speaker1.webp",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
@@ -143,7 +143,7 @@
         "id": "608c2960e165f6137f02b554",
         "name": "Stone 170 LFW",
         "price": 1199,
-        "about": "5W Bluetooth Speaker with Upto 6 Hours Playback, TWS Feature, IPX6, Multifunction Buttons and SD Card Slot",
+        "about": "The game of portability just got a boost with the boAt Stone 170, flip your scene anywhere anytime with the full 5W’s of power. A compact, lightweight and IPX 6 Water Resistant design makes it the perfect companion for a number of sceneries. Stay prepared with the boAt Stone 170. It is packed with a 1800mAh battery, with a push of up to 6 hours of playtime per listening session. So set the mood and accentuate the vibe with the boAt Stone 170. Pick your method of access with Wireless Bluetooth V4.2 and an SD card slot making it perfect for all situations. Extremely simple to navigate, utilize the integrated controls to access a wide range of functions. This includes True Wireless Function, meaning that you can set up two at the same time.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/992fa71b-0203-43f3-a1ca-43c9f535e87a_600x.png?v=1631788202",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
@@ -156,7 +156,7 @@
         "id": "608c2960e165f6137f02b555",
         "name": "Watch Xtend‌",
         "price": 2799,
-        "about": "boAt Watch Xtend‌ with Alexa Built-in, 1.69 Inches Big Square Display, 14 Sports Mode, 15 Watch Faces",
+        "about": "Ask more, get more, and do more with the smartest smartwatch in town - the all-new boAt Xtend. Leave your phone in your pocket and get your tasks done with a built-in Alexa. Take control over your music, fitness, and more with a 1.69 complete capacitive LCD display. Your wellness is now on your wrist with its Guided Meditative Breathing, Stress Monitor, and Sleep SpO2 Monitoring. Its 50 watch faces let you don a unique style every day. Make more out of your days with boAt Xtend.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main2_529ecf13-c993-4fe7-a2d6-9357f1a47db4_600x.png?v=1650387008",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
@@ -169,7 +169,7 @@
         "id": "608c2960e165f6137f02b556",
         "name": "Airdopes 141 Pro",
         "price": 1499,
-        "about": "boAt Airdopes 141 Pro | 12mm Drivers, Upto 45 Hours Playback, Quad Mics with ENx™️ Technology",
+        "about": "Take a step up on your listening experience with boAt Airdopes 141 Pro. Start playing your tracks on our best wireless earbuds and don't stop with a total playback of 45 hours. Never miss a beat with boAt Signature Sound on our all-new boAt Airdopes so that every song that you listen to shines through. Plug-in and live the sound.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1_05260e43-8f0b-4776-a433-ea2089c7f7e7_600x.png?v=1659614550",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
@@ -208,7 +208,7 @@
         "id": "608c2960e165f6137f02b559",
         "name": "AUX 500",
         "price": 349,
-        "about": "Boat Partypal 50 20W Bluetooth, Wireless, Auxiliary, USB, Fm Speaker",
+        "about": "3.5MM male to 3.5MM male cable. Compatible with smartphones and tablets. Spaceship grade aluminum casing ensures long-lasting durability. Metal braided heavy-duty aux cable is stress and stretch resistant, protects against day-to-day wear and tear.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5e508818-4384-42ec-bde0-670cf7e06e70_600x.png?v=1625045531",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
@@ -260,7 +260,7 @@
         "id": "608c2960e165f6137f02b563",
         "name": "TRebel Rockerz 450",
         "price": 1499,
-        "about": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes",
+        "about": "For all the feisty troublemakers in the world! Bass up your world with uninterrupted music for upto 8 hours with TRebel Rockerz 450. Shut out all haters and tune into your own rules, with powerful noise cancellation. Comfortable, plush, and adaptive headband that makes it super smooth for you to glide into your next adventure. Untangle your wired life with Bluetooth V5.0 powered wireless headphones! Claim your vibe with TRebel Rockerz 450 wireless earphones for women for an insane music experience.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/88dfba7c-19fd-4aef-a278-41c0d2d35366_600x.png?v=1624882639",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
@@ -273,7 +273,7 @@
         "id": "608c2960e165f6137f02b564",
         "name": "TRebel Airdopes 381 ",
         "price": 2199,
-        "about": "TRebel Airdopes 381 with 7mm Drivers, IPX5 Sweat & Water Resistance, 500mAh Pocket Friendly Charging Case",
+        "about": "Hello ladies! It is time to balance your hotness with the cool colors of boAt Airdopes 381 designed only for you! Let your style define your sassiness with a tinch of bossiness as you walk out of the doors claiming what is yours. With IPX5 Airdopes 381 will help you workout in style without bothering about the sweat; it is time to let good vibes rain over you. The 7mm rhythmic dynamic drivers are meant for you to get the best sound just like you deserve; go HD for the freak in you. With 500 mAh battery capacity, the best women earbuds make sure the music never stops talking to your soul.",
         "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-381-mediumspinggreen_43d63b08-d281-4c88-aa0c-ab9fab9add89_600x.png?v=1622527413",
         "createdAt": {
             "$date": "2021-04-30T15:59:28.146Z"
