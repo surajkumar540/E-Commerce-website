@@ -80,14 +80,14 @@ const SingleProduct = () => {
                 (product.length == 0 ? <img className='mx-auto w-1/2 mt-18' src='/images/empty-cart.png'></img> :
         
             <div className='container mx-auto mt-12'>
-                <button className='mb-12 font-bold' onClick={handleClick}>Back</button>
+                        <button className='mb-12 font-bold  hover:-translate-y-1 hover:scale-110 duration-300 transform transition-all hover:scale-105 hover:' onClick={handleClick}>Back</button>
                 <div className='flex'>
                     <img className='w-1/3' src={product.image} alt='pizza' />
                     <div className='ml-16 '>
                         <h1 className='text-4xl font-bold'>{product.name} </h1>
                                 <div className='font-bold mt-2 mb-5'>₹ {product.price}</div>
-                        <button disabled={isAdding} onClick={(e) => { addToCart(e, product) }} className={`${isAdding ? 'bg-green-500' : 'bg-yellow-500'} 'bg-yellow-500 py-1 px-4 rounded-full font-bold `}>Add{isAdding ? 'ed' : ""}</button>
-                        <button onClick={() => { handleOrderNow() }} className='bg-yellow-500 px-4 py-2 rounded-full leading-none text-white hover:bg-green-500 ml-4'>shop now</button>
+                                <button disabled={isAdding} onClick={(e) => { addToCart(e, product) }} className={`${isAdding ? 'bg-green-500' : 'bg-yellow-500'} 'bg-yellow-500 py-1 px-4 rounded-full font-bold  hover:-translate-y-1 hover:scale-110 duration-300 text-white transform transition-all hover:scale-105  `}>Add{isAdding ? 'ed' : ""}</button>
+                                <button onClick={() => { handleOrderNow() }} className='bg-yellow-500 px-4 py-2 rounded-full leading-none text-white hover:bg-green-500 ml-4  hover:-translate-y-1 hover:scale-110 duration-300 text-white transform transition-all hover:scale-105 hover:bg-red-700'>shop now</button>
                         <b className='flex mt-4'>About</b>
                         <div className='mt-4'>{product.about}</div> 
                     </div>

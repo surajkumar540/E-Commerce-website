@@ -21,10 +21,10 @@ const App = () => {
     
     
     const searchProduct = (searchItem) =>{
-        // console.log('hi', searchItem);
+        console.log('hi', searchItem);
         
         const filtArr = allProducts.filter((item) =>{
-            return item.name.includes(searchItem); 
+            return item.name.toLowerCase().includes(searchItem.toLowerCase()); 
         })
         setData(filtArr);
         console.log(filtArr);
