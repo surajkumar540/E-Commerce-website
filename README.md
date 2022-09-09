@@ -1,3 +1,3 @@
 #E-Commerce-website
 
-https://e-commerce-website321.netlify.app/
+https://shopping-react-website.netlify.app/
