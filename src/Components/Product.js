@@ -62,7 +62,7 @@ const Product = (props) => {
                 </div>
                 <div className=' h-20 text-center flex flex-col items-center'>
                     <span className='text-black pt-1 w-full '><b>Price ₹{product.price}</b></span>
-                    <button disabled={isAdding} onClick={(e) => { addToCart(e, product) }} className={`${isAdding ? 'bg-green-600' : 'hover: bg-red-700'} '   py-1  flex justify-center m-2  rounded-xl w-3/5 font-bold   hover:-translate-y-1 hover:scale-110 duration-300 text-white transform transition-all hover:scale-105 `}>Add{isAdding ? 'ed' : ""}</button>
+                    <button disabled={isAdding} onClick={(e) => { addToCart(e, product) }} className={`${isAdding ? 'bg-green-600' : 'hover: bg-red-600'} '   py-1  flex justify-center m-2  rounded-xl w-3/5 font-bold   hover:-translate-y-1 hover:scale-110 duration-300 text-white transform transition-all hover:scale-105 `}>Add{isAdding ? 'ed' : ""}</button>
                 </div>
             </div>
         </Link>

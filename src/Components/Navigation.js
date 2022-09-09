@@ -28,7 +28,7 @@ const [search, setSearch] = useState("");
   },[search])
 
   return (
-    <div className='bg-black h-20 flex bg-opacity-90 sticky top-0 z-40'>
+    <div className='bg-black h-16 flex bg-opacity-90 sticky top-0 z-40'>
       <nav className='container mx-auto w-full flex items-center justify-between py-3 rounded'>
 
         <Link to='/'>
